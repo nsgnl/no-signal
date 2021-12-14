@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Outfit:wght@100..900&family=Press+Start+2P&display=swap');
+
+:root {
+	--c-purple: #973999;
+	--c-red: #ff0000;
+	--c-yellow: #ffb900;
+	--c-green: #5ebd3e;
+	--c-blue: #009cdf;
+	--c-pink: #ff65d8;
+
+	--c-black: #000000;
+	--c-g-dark: #3b3b3b;
+	--c-g: #9b9b9d;
+	--c-g-light: #dadbdf;
+	--c-white: #ffffff;
+
+	--font-base: 'Outfit', sans-serif;
+	--font-pixel: 'Press Start 2P', monospace;
+	--font-hand: 'Caveat', cursive;
+}
+
+:root {
+	font-family: var(--font-base);
+	font-weight: 400;
+	font-size: 16px;
+}
+
+body {
+	background-color: var(--c-g-dark);
+}
+
+#svelte {
+	background-color: var(--c-yellow);
+	min-height: 100vh;
+	color: var(--c-g-dark);
+}

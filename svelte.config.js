@@ -13,20 +13,6 @@ const config = {
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-
-		// additional vite config
-		vite: () => ({
-			// add more aliases
-			resolve: {
-				alias: {
-					$actions: resolve("src/lib/actions"),
-					$components: resolve("src/lib/components"),
-					$css: resolve("src/lib/css"),
-					$stores: resolve("src/lib/stores"),
-					$util: resolve("src/lib/util"),
-				}
-			}
-		}),
 	}
 };
 
