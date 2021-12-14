@@ -3,7 +3,7 @@
 	import '$lib/css/base.css';
 
 	import Marquee from '$lib/components/Marquee.svelte';
-	import TV from '$lib/components/TV.svelte';
+	import TV from '$lib/components/TV/TV.svelte';
 
 	let size = '4rem';
 </script>
@@ -15,7 +15,9 @@
 </main>
 
 <aside>
-	<Marquee {size} vertical><slot name="scroll">Tune your communication</slot></Marquee>
+	<Marquee {size} background="var(--c-purple)" vertical
+		><slot name="scroll">Tune your communication</slot></Marquee
+	>
 </aside>
 
 <style>

@@ -20,6 +20,23 @@
 }
 
 :root {
+	--testcard: radial-gradient(transparent, rgb(10, 20, 10, 0.85)),
+		linear-gradient(
+			to right,
+			var(--c-purple) calc(100% / 6 * 1),
+			var(--c-red) calc(100% / 6 * 1),
+			var(--c-red) calc(100% / 6 * 2),
+			var(--c-yellow) calc(100% / 6 * 2),
+			var(--c-yellow) calc(100% / 6 * 3),
+			var(--c-green) calc(100% / 6 * 3),
+			var(--c-green) calc(100% / 6 * 4),
+			var(--c-blue) calc(100% / 6 * 4),
+			var(--c-blue) calc(100% / 6 * 5),
+			var(--c-pink) calc(100% / 6 * 5)
+		);
+}
+
+:root {
 	font-family: var(--font-base);
 	font-weight: 400;
 	font-size: 16px;
